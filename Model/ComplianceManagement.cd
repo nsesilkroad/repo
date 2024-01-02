@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Silkroad.Modules.ComplianceManagement.Model.Compliance">
+    <Position X="2" Y="2.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAgAAAAAAAAAAAAAAAEAAAAAQGAAAEACAA=</HashCode>
+      <FileName>Model\Compliance.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Silkroad.Modules.ComplianceManagement.Model.ComplianceTemplate">
+    <Position X="4.75" Y="2.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAQAAAAEAAAAAwAAAAAACAA=</HashCode>
+      <FileName>Model\ComplianceTemplate.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Silkroad.Core.Base.Model.BaseTracker" Collapsed="true">
+    <Position X="2" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Font Name="맑은 고딕" Size="9" />
+</ClassDiagram>
