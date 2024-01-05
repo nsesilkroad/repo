@@ -69,13 +69,6 @@ namespace Silkroad.Modules.ComplianceManagement.Model
         ///     화면에서 사용하는 컬럼
         /// </summary>
         [NotMapped]
-        [JsonProperty("icon")]
-        public string Icon { get; set; }
-
-        /// <summary>
-        ///     화면에서 사용하는 컬럼
-        /// </summary>
-        [NotMapped]
         [JsonProperty("expanded")]
         public bool Expanded { get; set; }
 
