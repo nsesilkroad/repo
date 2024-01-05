@@ -23,5 +23,10 @@ namespace Silkroad.Modules.ComplianceManagement.Model
         ///     ComplianceTemplate 데이터 관리 DbSet
         /// </summary>
         DbSet<ComplianceTemplate> ComplianceTemplates { get; }
+
+        /// <summary>
+        ///     ComplianceTemplate 데이터 관리 DbSet
+        /// </summary>
+        DbSet<ComplianceTemplate> ComplianceData { get; }
     }
 }
