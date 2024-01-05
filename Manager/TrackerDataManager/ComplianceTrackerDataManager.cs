@@ -54,7 +54,7 @@ namespace Silkroad.Modules.ComplianceManagement.Manager.TrackerDataManager
             {
                 returnValue.Leaf = true;
             }
-
+            complianceDbContext.Attachments.Where(attach => attach.TargetDataId == targetData.Id && !attach.IsDeleted).Load();
             return returnValue as T;
         }
 
