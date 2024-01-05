@@ -24,6 +24,13 @@ namespace Silkroad.Modules.ComplianceManagement.Model
         public int Id { get; set; }
 
         /// <summary>
+        ///     로컬 아이디
+        /// </summary>
+        [Key]
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+        public int localId { get; set; }
+
+        /// <summary>
         ///     Compliance Name
         /// </summary>
         public string Name { get; set; }
