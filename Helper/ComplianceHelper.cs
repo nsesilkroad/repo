@@ -17,5 +17,10 @@ namespace Silkroad.Modules.ComplianceManagement.Helper
         ///     Logger
         /// </summary>
         private static readonly ILogger Logger = LoggerManager.GetLogger(MethodBase.GetCurrentMethod().DeclaringType);
+	
+	ComplianceHelper (String name)
+	{
+		Name = name;	
+	}
     }
 }
