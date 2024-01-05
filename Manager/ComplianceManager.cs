@@ -35,6 +35,8 @@ namespace Silkroad.Modules.ComplianceManagement.Manager
         {
             try
             {
+                var trackerData = dbContext.GetTracker(data.trackerId);
+                data.TrackerType = trackerData;
                 data.Writer = member;
                 data.WriteDateTime = DateTime.Now;
                 dbContext.Compliances.Add(data);
