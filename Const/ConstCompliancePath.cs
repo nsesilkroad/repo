@@ -9,5 +9,6 @@ namespace Silkroad.Modules.ComplianceManagement.Const
         public static readonly string CurrentDirectorySymbol = ".\\";
         public static readonly string TemplatePath = "ComplianceTemplate\\";
         public static readonly string TrackerPath = "Attachment\\Compliance\\";
+        public static readonly string TypePath = "Attachment\\Compliance\\Type\\";
     }
 }
