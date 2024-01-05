@@ -10,10 +10,6 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Internal;
 using Microsoft.Extensions.DependencyInjection;
 using Newtonsoft.Json;
-using Silkroad.Core.Base.Const.TemplateTrackerType;
-using Silkroad.Core.Base.Enumeration.ExtTypes;
-using Silkroad.Core.Base.Model.CustomFields;
-using Silkroad.Modules.ComplianceManagement.Model;
 
 namespace Silkroad.Modules.ComplianceManagement.Data
 {
